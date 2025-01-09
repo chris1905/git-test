@@ -12,7 +12,7 @@
             padding: 20px;
             background-color: #f0f0f0;
         }
-        h1 {
+        h1, h2 {
             color: #333;
             text-align: center;
             border-bottom: 2px solid #333;
@@ -22,10 +22,41 @@
             line-height: 1.6;
             color: #666;
         }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to my website</h1>
     <p>This is a simple webpage for testing Git workflows.</p>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a passionate team dedicated to creating amazing web experiences. Our goal is to demonstrate effective Git workflows while building beautiful websites.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with us at: contact@example.com</p>
+        <p>Follow us on social media for updates and news!</p>
+    </section>
+
+    <footer>
+        <p>© 2025 My Website. All rights reserved.</p>
+        <p>Created with ❤️ for Git workflow testing</p>
+    </footer>
 </body>
 </html>
